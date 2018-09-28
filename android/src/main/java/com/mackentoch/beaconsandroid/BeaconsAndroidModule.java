@@ -356,9 +356,9 @@ public class BeaconsAndroidModule extends ReactContextBaseJavaModule implements 
               b.putInt("major", beacon.getId2().toInt());
               b.putInt("minor", beacon.getId3().toInt());
           }
-          b.putString('id1', beacon.getId1().toString());
-          b.putString('id2', beacon.getId2().toString());
-          b.putString('id3', beacon.getId3().toString());
+          b.putString("id1", beacon.getId1().toString());
+          b.putString("id2", beacon.getId2().toString());
+          b.putString("id3", beacon.getId3().toString());
           b.putInt("rssi", beacon.getRssi());
           b.putDouble("distance", beacon.getDistance());
           b.putString("proximity", getProximity(beacon.getDistance()));
